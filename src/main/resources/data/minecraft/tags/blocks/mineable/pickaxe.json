@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "dampsmod:citrine_ore",
+    "dampsmod:citrine_block",
+    "dampsmod:raw_citrine_block"
+  ]
+}

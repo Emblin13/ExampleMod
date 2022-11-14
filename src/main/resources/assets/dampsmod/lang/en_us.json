@@ -1,0 +1,20 @@
+{
+  "item.dampsmod.citrine": "Citrine",
+  "item.dampsmod.raw_citrine": "Raw Citrine",
+  "item.dampsmod.cucumber": "Cucumber",
+  "item.dampsmod.dowsing_rod": "Dowsing Rod",
+  "item.dampsmod.coal_coke": "Coal Coke",
+
+  "block.dampsmod.citrine_block": "Citrine Block",
+  "block.dampsmod.raw_citrine_block": "Raw Citrine Block",
+  "block.dampsmod.citrine_ore": "Citrine Ore",
+  "block.dampsmod.speedy_block": "Speedy Block",
+
+  "itemGroup.dampstab": "Damps",
+  "itemGroup.dampstab2": "Damps 2",
+
+  "item.dampsmod.dowsing_rod.no_valuables": "No valuables found!",
+  "tooltip.dampsmod.dowsing_rod.tooltip.shift": "Right click to find valuables!",
+  "tooltip.dampsmod.dowsing_rod.tooltip": "Press §eSHIFT§r for more information",
+  "tooltip.dampsmod.block.speedy_block": "Walk on it to move faster!"
+}

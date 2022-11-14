@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "dampsmod:citrine_ore"
+  },
+  "result": {
+    "count": 2,
+    "item": "dampsmod:citrine"
+  },
+  "experience": 5,
+  "cookingtime": 100
+}
