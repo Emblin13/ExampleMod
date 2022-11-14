@@ -10,7 +10,7 @@
       "item": "minecraft:stick"
     },
     "C": {
-      "item": "dampsmod:citrine"
+      "tag": "forge:gems/citrine"
     }
   },
   "result": {

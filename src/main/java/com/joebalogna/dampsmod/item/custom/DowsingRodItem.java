@@ -1,7 +1,9 @@
 package com.joebalogna.dampsmod.item.custom;
 
+import com.joebalogna.dampsmod.util.ModTags;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.core.BlockPos;
+import net.minecraft.core.Registry;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.TextComponent;
 import net.minecraft.network.chat.TranslatableComponent;
@@ -72,8 +74,7 @@ public class DowsingRodItem extends Item {
     }
 
     private boolean isValuableBlock(Block block) {
-        return block == Blocks.COAL_ORE || block == Blocks.COPPER_ORE || block == Blocks.IRON_ORE ||
-                block == Blocks.DIAMOND_ORE || block == Blocks.EMERALD_ORE || block == Blocks.GOLD_ORE ||
-                block == Blocks.LAPIS_ORE || block == Blocks.REDSTONE_ORE; //Only checks overworld ores
+        return Registry.BLOCK.getHolderOrThrow(Registry.BLOCK.getResourceKey(block).get()).
+                is(ModTags.Blocks.DOWSING_ROD_VALUABLES);
     }
 }

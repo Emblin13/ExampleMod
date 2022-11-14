@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "dampsmod:block/citrine_slab"
+    },
+    "type=double": {
+      "model": "dampsmod:block/citrine_block"
+    },
+    "type=top": {
+      "model": "dampsmod:block/citrine_slab_top"
+    }
+  }
+}

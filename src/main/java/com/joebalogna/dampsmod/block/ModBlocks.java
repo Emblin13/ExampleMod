@@ -8,7 +8,7 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.TranslatableComponent;
 import net.minecraft.world.item.*;
 import net.minecraft.world.level.Level;
-import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -41,6 +41,27 @@ public class ModBlocks {
             () -> new SpeedyBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(1f).requiresCorrectToolForDrops()), ModCreativeModTab.DAMPS_TAB2,
             "tooltip.dampsmod.block.speedy_block");
+
+    public static final RegistryObject<Block> CITRINE_STAIRS = registerBlock("citrine_stairs",
+            () -> new StairBlock(() -> ModBlocks.CITRINE_BLOCK.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(3f).requiresCorrectToolForDrops()), ModCreativeModTab.DAMPS_TAB2);
+
+    public static final RegistryObject<Block> CITRINE_SLAB = registerBlock("citrine_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(3f).requiresCorrectToolForDrops()), ModCreativeModTab.DAMPS_TAB2);
+
+    public static final RegistryObject<Block> CITRINE_FENCE = registerBlock("citrine_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(3f).requiresCorrectToolForDrops()), ModCreativeModTab.DAMPS_TAB2);
+
+    public static final RegistryObject<Block> CITRINE_FENCE_GATE = registerBlock("citrine_fence_gate",
+            () -> new FenceGateBlock(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(3f).requiresCorrectToolForDrops()), ModCreativeModTab.DAMPS_TAB2);
+
+    public static final RegistryObject<Block> CITRINE_WALL = registerBlock("citrine_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(3f).requiresCorrectToolForDrops()), ModCreativeModTab.DAMPS_TAB2);
 
 
 
