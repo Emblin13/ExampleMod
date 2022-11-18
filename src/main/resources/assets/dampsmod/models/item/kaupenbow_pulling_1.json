@@ -1,0 +1,6 @@
+{
+    "parent": "dampsmod:item/kaupenbow",
+    "textures": {
+        "layer0": "dampsmod:item/kaupenbow_pulling_1"
+    }
+}

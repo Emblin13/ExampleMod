@@ -1,12 +1,17 @@
 package com.joebalogna.dampsmod.item.custom;
 
+import com.joebalogna.dampsmod.item.ModItems;
+import com.joebalogna.dampsmod.sound.ModSounds;
+import com.joebalogna.dampsmod.util.InventoryUtil;
 import com.joebalogna.dampsmod.util.ModTags;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Registry;
+import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.TextComponent;
 import net.minecraft.network.chat.TranslatableComponent;
+import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.Item;
@@ -52,6 +57,14 @@ public class DowsingRodItem extends Item {
                 if(isValuableBlock(blockBelow)) {
                     outputValuableCoordinates(positionClicked.below(i), player, blockBelow);
                     foundBlock = true;
+
+                    if(InventoryUtil.hasPlayerStackInInventory(player, ModItems.DATA_TABLET.get())) {
+                        addNbtToDataTablet(player, positionClicked.below(i), blockBelow);
+                    }
+
+                    pContext.getLevel().playSound(player, positionClicked, ModSounds.DOWSING_ROD_FOUND_ORE.get(),
+                            SoundSource.BLOCKS, 1f, 1f);
+
                     break;
                 }
             }
@@ -77,4 +90,17 @@ public class DowsingRodItem extends Item {
         return Registry.BLOCK.getHolderOrThrow(Registry.BLOCK.getResourceKey(block).get()).
                 is(ModTags.Blocks.DOWSING_ROD_VALUABLES);
     }
+
+    //Figure out the purpose of the "dampsmod.last_ore" key.
+    private void addNbtToDataTablet(Player player, BlockPos pos, Block blockBelow) {
+        ItemStack dataTablet =
+                player.getInventory().getItem(InventoryUtil.getFirstInventoryIndex(player, ModItems.DATA_TABLET.get()));
+
+        CompoundTag nbtData = new CompoundTag();
+        nbtData.putString("dampsmod.last_ore", "Found " + blockBelow.getName().getString() + " at (" +
+                pos.getX() + ", "+ pos.getY() + ", "+ pos.getZ() + ")");
+
+        dataTablet.setTag(nbtData);
+    }
+
 }

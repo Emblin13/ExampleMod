@@ -4,6 +4,30 @@
   "item.dampsmod.cucumber": "Cucumber",
   "item.dampsmod.dowsing_rod": "Dowsing Rod",
   "item.dampsmod.coal_coke": "Coal Coke",
+  "item.dampsmod.magic_dust": "Magic Dust",
+
+  "item.dampsmod.citrine_sword": "Citrine Sword",
+  "item.dampsmod.citrine_axe": "Citrine Axe",
+  "item.dampsmod.citrine_shovel": "Citrine Shovel",
+  "item.dampsmod.citrine_hoe": "Citrine Hoe",
+  "item.dampsmod.citrine_pickaxe": "Citrine Pickaxe",
+  "item.dampsmod.kaupenbow": "Kaupenbow",
+
+  "item.dampsmod.cucumber_seeds": "Cucumber Seeds",
+
+  "item.dampsmod.citrine_helmet": "Citrine Helmet",
+  "item.dampsmod.citrine_chestplate": "Citrine Chestplate",
+  "item.dampsmod.citrine_leggings": "Citrine Leggings",
+  "item.dampsmod.citrine_boots": "Citrine Boots",
+
+  "item.dampsmod.random_potion_sword": "Random Potion Sword",
+  "item.dampsmod.data_tablet": "Data Tablet",
+  "item.dampsmod.bar_brawl_music_disc": "Bar Brawl Music Disc",
+  "item.dampsmod.bar_brawl_music_disc.desc": "Bryan Tech - Bar Brawl (CC0)",
+  "item.dampsmod.disco_light_music_disc": "Disco Light Music Disc",
+  "item.dampsmod.disco_light_music_disc.desc": "Shibayan Records - Disco Light",
+  "item.dampsmod.gaslight_music_disc": "???",
+  "item.dampsmod.gaslight_music_disc.desc": "You feel a sense of unease",
 
   "block.dampsmod.citrine_block": "Citrine Block",
   "block.dampsmod.citrine_stairs": "Citrine Stairs",
@@ -14,6 +38,24 @@
   "block.dampsmod.raw_citrine_block": "Raw Citrine Block",
   "block.dampsmod.citrine_ore": "Citrine Ore",
   "block.dampsmod.speedy_block": "Speedy Block",
+  "block.dampsmod.winter_window": "Winter Window",
+
+  "block.dampsmod.citrine_button": "Citrine Button",
+  "block.dampsmod.citrine_pressure_plate": "Citrine Pressure Plate",
+  "block.dampsmod.citrine_lamp": "Citrine Lamp",
+  "block.dampsmod.ebony_door": "Ebony Door",
+  "block.dampsmod.ebony_trapdoor": "Ebony Trapdoor",
+
+  "block.dampsmod.ebony_log": "Ebony Log",
+  "block.dampsmod.ebony_planks": "Ebony Planks",
+  "block.dampsmod.ebony_wood": "Ebony Wood",
+  "block.dampsmod.stripped_ebony_log": "Stripped Ebony Log",
+  "block.dampsmod.stripped_ebony_wood": "Stripped Ebony Wood",
+  "block.dampsmod.ebony_leaves": "Ebony Leaves",
+  "block.dampsmod.ebony_sapling": "Ebony Sapling",
+  
+  "block.dampsmod.pink_rose": "Pink Rose",
+  "block.dampsmod.potted_pink_rose": "Potted Pink Rose",
 
   "itemGroup.dampstab": "Damps",
   "itemGroup.dampstab2": "Damps 2",
@@ -21,5 +63,7 @@
   "item.dampsmod.dowsing_rod.no_valuables": "No valuables found!",
   "tooltip.dampsmod.dowsing_rod.tooltip.shift": "Right click to find valuables!",
   "tooltip.dampsmod.dowsing_rod.tooltip": "Press §eSHIFT§r for more information",
-  "tooltip.dampsmod.block.speedy_block": "Walk on it to move faster!"
+  "tooltip.dampsmod.block.speedy_block": "Walk on it to move faster!",
+
+  "sounds.dampsmod.dowsing_rod_found_ore": "Dowsing Rod Found Item Sound"
 }

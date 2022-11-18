@@ -1,0 +1,62 @@
+{
+  "dowsing_rod_found_ore": {
+  "subtitle": "sounds.dampsmod.dowsing_rod_found_ore",
+  "sounds": [
+    "dampsmod:dowsing_rod_found_ore"
+  ]
+},
+  "citrine_lamp_break": {
+    "subtitle": "dampsmod.citrine_lamp_break",
+    "sounds": [
+      "dampsmod:citrine_lamp_break"
+    ]
+  },
+  "citrine_lamp_step": {
+    "subtitle": "dampsmod.citrine_lamp_step",
+    "sounds": [
+      "dampsmod:citrine_lamp_step"
+    ]
+  },
+  "citrine_lamp_place": {
+    "subtitle": "dampsmod.citrine_lamp_place",
+    "sounds": [
+      "dampsmod:citrine_lamp_place"
+    ]
+  },
+  "citrine_lamp_hit": {
+    "subtitle": "dampsmod.citrine_lamp_hit",
+    "sounds": [
+      "dampsmod:citrine_lamp_hit"
+    ]
+  },
+  "citrine_lamp_fall": {
+    "subtitle": "dampsmod.citrine_lamp_fall",
+    "sounds": [
+      "dampsmod:citrine_lamp_fall"
+    ]
+  },
+  "bar_brawl": {
+    "sounds": [
+      {
+        "name": "dampsmod:bar_brawl",
+        "stream": true
+      }
+    ]
+  },
+  "disco_light": {
+    "sounds": [
+      {
+        "name": "dampsmod:disco_light",
+        "stream": true
+      }
+    ]
+  },
+  "gaslight": {
+    "sounds": [
+      {
+        "name": "dampsmod:gaslight",
+        "stream": true
+      }
+    ]
+  }
+}

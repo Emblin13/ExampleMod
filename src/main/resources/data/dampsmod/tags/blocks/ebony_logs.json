@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "dampsmod:ebony_log",
+    "dampsmod:ebony_wood",
+    "dampsmod:stripped_ebony_log",
+    "dampsmod:stripped_ebony_wood"
+  ]
+}
